@@ -1,14 +1,16 @@
 import React from 'react';
 import Header from '../Header/Header';
 import { Outlet } from 'react-router-dom';
+import "./Main.css"
+import  { Toaster } from "react-hot-toast";
+
 
 const Main = () => {
   return (
-    <div>
-      <h2>This is main page</h2>
-      <Header></Header>  
+    <div className="main-container">
+      <Header></Header>
       <Outlet></Outlet>
-      
+      <Toaster />
     </div>
   );
 };
