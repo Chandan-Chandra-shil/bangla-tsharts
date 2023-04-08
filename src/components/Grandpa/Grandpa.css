@@ -4,6 +4,7 @@
   padding: 30px;
   border-radius: 10px;
     width: fit-content;
+    text-align: center;
 }
 .flex{
   display: flex;
